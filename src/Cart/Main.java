@@ -63,8 +63,8 @@ public class Main {
                     System.out.println("Happy Shopping");
                     break;
             }
-            System.out.println("1) View Products \n 2) Add Product To Cart  \n" +
-                    "3) View Cart \n 4) View Cart Price \n 5) Remove Product From Cart\n 6) Exit");
+            System.out.println(" 1) View Products \n 2) Add Product To Cart \n" +
+                    " 3) View Cart \n 4) View Cart Price \n 5) Remove Product From Cart\n 6) Exit");
             choice = sc.nextInt();
         }while(choice != 6);
     }

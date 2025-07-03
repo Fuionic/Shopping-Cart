@@ -10,7 +10,7 @@ public class Store {
 
     public void addProduct(Product product){
         products.add(product);
-        System.out.println("Product is added");
+        //System.out.println("Product is added");
     }
 
     public void display(){
