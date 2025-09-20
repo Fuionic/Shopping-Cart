@@ -1,6 +1,7 @@
 # 🛒 Shopping Cart Console Application
 
 A simple Java-based console application that simulates a basic shopping cart system. This project was built to revise and strengthen core Java concepts like Object-Oriented Programming (OOP), collections, and console input/output handling.
+I have design thiis as project to practice LLD (LOW LEVEL DESIGN) demonstrating oop concepts.
 
 ---
 
@@ -15,6 +16,14 @@ A simple Java-based console application that simulates a basic shopping cart sys
 
 ---
 
+## ⚙️ Low Level Design Approach
+- **Product** → Represents an item (id, name, price)  
+- **CartItem** → Links product with quantity  
+- **Cart** → Holds multiple CartItems, supports add/remove/total operations  
+- **User** → Owns a cart  
+- **Main class** → Driver code for testing the shopping cart
+---
+
 ## 🛠️ Technologies Used
 
 - Java (Core)
@@ -22,3 +31,9 @@ A simple Java-based console application that simulates a basic shopping cart sys
 - Git & GitHub
 
 ---
+## 📈 Example Run
+
+Added: iPhone (₹80,000)
+Added: AirPods (₹15,000)
+Removed: AirPods
+Cart Total: ₹80,000
