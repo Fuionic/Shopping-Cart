@@ -38,48 +38,6 @@ Added: AirPods (₹15,000)
 Removed: AirPods
 Cart Total: ₹80,000 
 
----
-##UML Diagram
-```
-classDiagram
-    class Product {
-        - int id
-        - String name
-        - double price
-        + Product(int, String, double)
-        + getId()
-        + getName()
-        + getPrice()
-    }
 
-    class CartItem {
-        - Product product
-        - int quantity
-        + CartItem(Product, int)
-        + getProduct()
-        + getQuantity()
-        + getTotalPrice()
-    }
 
-    class Cart {
-        - List~CartItem~ items
-        + addItem(Product, int)
-        + removeItem(Product)
-        + getTotalPrice()
-        + viewCart()
-    }
-
-    class User {
-        - int id
-        - String name
-        - Cart cart
-        + User(int, String)
-        + getCart()
-    }
-
-    Product <.. CartItem
-    CartItem *-- Product
-    Cart *-- CartItem
-    User *-- Cart
-```
 
